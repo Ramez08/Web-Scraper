@@ -1,26 +1,40 @@
-
-
 {
-  "name": "web-scraper", // The name of the package.
-  "version": "1.0.0", // The version of the package.
-  "description": "A web scraper capable of gathering information about a site.", // A short description of the package.
-  "main": "index.js", // The main entry point of the package.
+  "name": "web-scraper",
+  <!-- The name of the package. -->
+  "version": "1.0.0",
+  <!-- The version of the package. -->
+  "description": "A web scraper capable of gathering information about a site.",
+  <!-- A short description of the package. -->
+  "main": "index.js",
+  <!-- The main entry point of the package. -->
   "scripts": {
-    "start": "nodemon index.js" // The command to start the server.
+    "start": "nodemon index.js"
+    <!-- The command to start the server. -->
   },
-  "author": "Ramez Ibrahim", // The author of the package.
-  "license": "ISC", // The license of the package.
+  "author": "Ramez Ibrahim",
+  <!-- The author of the package. -->
+  "license": "ISC",
+  <!-- The license of the package. -->
   "devDependencies": {
-    "babel-cli": "^6.26.0", // The Babel CLI tool.
-    "babel-preset-env": "^1.7.0", // The Babel preset for ES2015+ features.
-    "install": "^0.13.0", // The install command.
-    "npm": "^7.21.0", // The npm package manager.
-    "package-name": "^0.1.0" // The package-name package.
+    "babel-cli": "^6.26.0",
+    <!-- The Babel CLI tool. -->
+    "babel-preset-env": "^1.7.0",
+    <!-- The Babel preset for ES2015+ features. -->
+    "install": "^0.13.0",
+    <!-- The install command. -->
+    "npm": "^7.21.0",
+    <!-- The npm package manager. -->
+    "package-name": "^0.1.0"
+    <!-- The package-name package. -->
   },
   "dependencies": {
-    "axios": "^1.4.0", // The Axios HTTP client.
-    "cheerio": "^1.0.0-rc.12", // The Cheerio HTML parser.
-    "express": "^4.18.2", // The Express web framework.
-    "puppeteer": "^20.4.0" // The Puppeteer headless browser.
+    "axios": "^1.4.0",
+    <!-- The Axios HTTP client. -->
+    "cheerio": "^1.0.0-rc.12",
+    <!-- The Cheerio HTML parser. -->
+    "express": "^4.18.2",
+    <!-- The Express web framework. -->
+    "puppeteer": "^20.4.0"
+    <!-- The Puppeteer headless browser. -->
   }
 }
