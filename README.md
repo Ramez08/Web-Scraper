@@ -1,4 +1,4 @@
-# Web Scraping Demonstration
+# Web Scraper
 
 This Node.js script is a demonstration of web scraping capabilities using Axios and Cheerio libraries. It showcases the ability to extract product information from the LTT Store website (https://www.lttstore.com/collections/all) by scraping the titles and URLs of products whose URLs start with '/products/'. The extracted data is then displayed using an Express server.
 
