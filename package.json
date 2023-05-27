@@ -2,19 +2,14 @@
   "name": "web-scraper",
   <!-- The name of the package. -->
   "version": "1.0.0",
-  <!-- The version of the package. -->
   "description": "A web scraper capable of gathering information about a site.",
-  <!-- A short description of the package. -->
   "main": "index.js",
-  <!-- The main entry point of the package. -->
   "scripts": {
     "start": "nodemon index.js"
     <!-- The command to start the server. -->
   },
   "author": "Ramez Ibrahim",
-  <!-- The author of the package. -->
   "license": "ISC",
-  <!-- The license of the package. -->
   "devDependencies": {
     "babel-cli": "^6.26.0",
     <!-- The Babel CLI tool. -->
