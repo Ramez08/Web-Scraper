@@ -21,11 +21,11 @@ This project was based on the following video tutorial: [Web Scraping in Node.js
 
 ## Usage
 
-1. Open the script file (`app.js`) and modify the `PORT` constant if necessary.
+1. Open the script file (`index.js`) and modify the `PORT` constant if necessary.
 2. Run the script using the following command:
 
    ```shell
-   node app.js
+   node index.js
    ```
 
 3. The script will scrape the LTT Store website and log the extracted product titles and URLs to the console.
